@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header input#burger {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  margin-left: 20px;
+  font: impact;
+}
+
+.nav-right {
+  margin-right: 20px;
+}
+
+.nav-center img {
+  max-height: 100px;
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.nav-right form {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nav-right input[type="text"] {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav-right button[type="submit"] {
+  height: 30px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #2d2d2d;
+  font-weight: bold;
+}
+
+.nav-right ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-right li {
+  margin-right: 10px;
+}
+
+.nav-right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Impact', sans-serif;
+}
+
+.searchbar {
+  align-items: end;
+}
+
+header {
+  background-color: #000000;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px;
+  color: #ffffff;
+}
+
+main {
+  padding: 50px 40px;
+  background-color: #ffffff
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footer-left {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 60px;
+  padding: 10px 10px;
+}
+
+.footer-right {
+  text-align: end;
+  margin-right: 60px;
+  font-size: 20px; 
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-middle i {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.footer-middle i:hover {
+  transform: scale(1.1);
+}
+
+@media (width <= 750px) {
+  header{
+    background-color: #000000;
+  }
+}

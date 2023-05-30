@@ -1,0 +1,74 @@
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font: Courier;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Courier;
+  line-height: 1.5;
+  margin: 0 12px;
+  text-align: center;
+}
+
+#flexbox {
+  display: flex;
+  background-color: #ff0000;
+  padding: 5%;
+  margin: 100px;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.col {
+  list-style: none;
+  width: 50%;
+}
+
+.col-left {
+  display: block;
+  text-align: center;
+  width: 50vw;
+}
+
+.col-right {
+  display: block;
+  text-align: center;
+  width: 50vw;
+}
+
+a:link,
+a:visited {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover,
+a:active {
+  background-color: rgb(0, 0, 0);
+}
+
+#flexbox {
+  display: flex;
+  padding: 4% 0;
+}
+
+footer {
+  text-align: center;
+}

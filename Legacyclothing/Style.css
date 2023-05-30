@@ -1,0 +1,74 @@
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .branding {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+  }
+  
+  .branding h1 {
+	font-size: 30px;
+	margin: 0;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav li {
+	margin: 0 10px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+  }
+  
+  .hero-image {
+	background-image: url("website.png");
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+  }
+  
+  .product-info {
+	background-color: white;
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+  }
+  
+  .product-info h2 {
+	font-size: 36px;
+	margin: 0;
+  }
+  
+  .product-info p {
+	font-size: 18px;
+  }
+  
+  .product-info button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #333;
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+	cursor: pointer;
+  }
