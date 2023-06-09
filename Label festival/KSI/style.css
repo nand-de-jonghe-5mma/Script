@@ -12,9 +12,6 @@ nav {
   color: #ffffff;
   font-size: 20px;
 }
-li{
-  display: inline;
-}
 
 li a:hover{
   color: red;
