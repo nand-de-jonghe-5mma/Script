@@ -1,5 +1,0 @@
-bij dit heb ik geleerd hoe
-
-- Dat bootstrap heel handig is voor websites zeker als je een winkel zou willen openen
-- Dat scripten gemakelijker gaat met bootstrap
-- Hoe je het beste kolomen maakt met bootstrap
