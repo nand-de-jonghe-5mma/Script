@@ -1,0 +1,31 @@
+/*
+Font-sizes in em/rem
+Element width in % of vw
+left, right margin en padding %
+flexbox
+*/
+
+/* ---- FONTS ---- */
+/* 
+font-family:; font-family: 'Epilogue', sans-serif;
+font-family:;
+font-family:;
+*/
+
+/* ---- COLORS ---- */
+/* 
+color: #FFF; text color
+color: #EF6D58; accent color
+color: #28293E;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
